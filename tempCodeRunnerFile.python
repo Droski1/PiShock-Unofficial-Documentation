@@ -1,0 +1,16 @@
+from pyflipper.pyflipper import PyFlipper
+import time
+#Local serial port
+
+#def ExecuteFile(dir):
+#Opens the File
+flipper = PyFlipper(com="COM3")
+flipper.loader.open(dir)
+
+#flipper.input.send('ok', 'press')
+#time.sleep(1)
+#flipper.input.send('ok', 'release')
+#time.sleep(1)
+#flipper.input.send('back', 'short')
+
+#ExecuteFile("/ext/subghz/PISHOCKTEST/beep.sub")
